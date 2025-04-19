@@ -4,7 +4,7 @@
   "private": true,
   "description": "Test workspace for pnpm lock file behavior with changesets",
   "scripts": {
-    "ci:publish": "pnpm build && pnpm changeset publish"
+    "ci:publish": "pnpm changeset publish"
   },
   "keywords": [],
   "author": "",
