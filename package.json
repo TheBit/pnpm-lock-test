@@ -1,0 +1,15 @@
+{
+  "name": "@thebit/pnpm-lock-test-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test workspace for pnpm lock file behavior with changesets",
+  "scripts": {
+    "ci:publish": "pnpm build && pnpm changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.2"
+  }
+}
