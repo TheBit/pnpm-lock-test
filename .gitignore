@@ -520,9 +520,4 @@ dist
 .pnp.*
 
 # pnpm
-pnpm-lock.yaml # Часто цей файл комітять, але якщо ні - розкоментуйте
 node_modules/
-
-# Changeset artifacts
-.changeset/*.md
-!/.changeset/README.md
